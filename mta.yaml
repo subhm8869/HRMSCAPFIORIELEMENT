@@ -1,4 +1,4 @@
-_schema-version: '3.1'
+_schema-version: "3.1"
 ID: HRMSCAPFIORIELEMENT
 version: 1.0.0
 description: "A simple CAP project."
@@ -8,6 +8,7 @@ build-parameters:
   before-all:
     - builder: custom
       commands:
+        - npm install
         - npx cds build --production
 modules:
   - name: HRMSCAPFIORIELEMENT-srv
