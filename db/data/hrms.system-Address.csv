@@ -1,0 +1,42 @@
+ID,Street,City,Pincode,Address,employee_ID
+cdcfcd9b-c600-4053-86a7-33b5914c501e,123 Main Road,Mumbai,400001,"ABC Towers, 4th Floor",5cf2c916-2992-4f56-8a33-26b2bb7013c2
+a45c350d-19bb-4c2f-9e0d-3ceb55a42443,456 Market Street,Delhi,110001,"XYZ Apartments, Block A, 10th Floor",b7902a6a-2583-4124-8005-1f4c908ac28f
+9506ae58-2b7d-4d04-a0b9-ba6de11c8762,789 Park Avenue,Bangalore,560001,"Sunshine Residency, Flat 302",6bda3a8f-721a-49fa-97d0-ff1955aff0b3
+181e6e85-7cb2-48dd-851d-1f063c5b37c1,234 Lake View Road,Kolkata,700001,"Riverfront Towers, Tower B, 15th Floor",7e802dcf-9b79-4037-ad83-ae6e28260dc6
+c9077c96-0488-4761-b8d6-2f869c9566c7,567 Hillside Lane,Chennai,600001,"Emerald Gardens, Villa 45",0a2394cc-687f-4551-be03-ab3ea30cd895
+9554062c-9154-4ff3-8e1e-7897ee21f7bf,890 Ocean Drive,Hyderabad,500001,"Pearl Paradise, Block C, 8th Floor",abb05bed-5735-4dd9-8429-ff3ca7476dd9
+843a0dd1-47f1-437f-8d26-772442ef1a13,345 Green Valley Circle,Ahmedabad,380001,"Harmony Heights, Penthouse 1",fb0d4ff6-cfd8-4fcc-8625-c0c9a32a4e63
+c3d0fe2e-b02c-4055-9a98-6eae8cb5767a,678 Riverside Boulevard,Pune,411001,"Serenity Plaza, Suite 202",22b1cb95-fddd-468e-8c82-c51a06198311
+3955d4c8-951c-4603-9159-153e25a2f45b,901 Golden Gate Street,Jaipur,302001,"Royal Residency, Apartment 101",c8f3aa27-2322-482e-9e2b-365391379920
+946d9e1e-490f-4fae-a74a-40add595f15f,123 Silver Lane,Lucknow,226001,"Starlight Towers, Block D, 12th Floor",dc9289bd-dd14-46f8-9c4c-1fa67c0d43c0
+9495d49d-5a69-4321-b87d-588bf4ee2e14,456 Sapphire Street,Chandigarh,160001,"Crystal Court, Flat 201",d63c4c13-759b-46ea-ab9a-4e857e135c5d
+67016f1b-3d08-4371-a456-aa59173b4c90,789 Diamond Avenue,Bhopal,462001,"Radiant Homes, Villa 22",49119802-c89e-434b-b984-db01f87d8e83
+e4daccfb-3a49-4ffe-b64f-b51c79ac532d,234 Ruby Road,Indore,452001,"Shimmering Heights, Floor 6",ef2adf93-e3ed-4ac7-985c-7989c5b8814c
+e9b25c41-e9a1-436e-bd46-54f0441efc93,567 Pearl Lane,Coimbatore,641001,"Velvet Villas, Block E, 9th Floor",9751f9b3-4322-4621-8009-812fc5ee0dce
+59a256d4-67dc-4fd9-a53c-1d47a87b4cba,890 Topaz Terrace,Kochi,682001,"Ivory Towers, Apartment 304",935dcf87-171c-4e69-8551-e5484649c231
+0bc84e9a-3d4f-4696-ada0-c5280e46e85d,345 Coral Crescent,Nagpur,440001,"Coral Cove, Suite 102",e0c85714-6d8a-4e16-9cb7-60b2d9dbd467
+71082b99-02a7-40a3-bb0e-5044872a07d8,678 Jade Junction,Kanpur,208001,"Green Oasis, Penthouse 3",583bcc23-70d4-455b-af8b-0691b8f4e250
+4fd79d28-f89a-40db-9b1d-d4f079ff0e02,901 Amber Avenue,Visakhapatnam,530001,"Amber Heights, Tower A, 11th Floor",c3f04571-d473-4ea7-8ec1-49a5ac0dbef7
+48e94906-de98-4050-b057-cc6197b5766a,123 Quartz Quay,Agra,282001,"Quartz Residences, Flat 401",37a71f68-9f97-40bf-85c3-2bd7f6151be2
+20376aec-2e92-4bee-abd0-c419465a1a64,456 Opal Oval,Amritsar,143001,"Opulent Homes, Villa 18",5d3262e6-6027-422b-8c7d-07e3a698c1ab
+ce5d2e51-780b-4d4f-b413-37ab32f3b1dd,789 Citrine Circle,Ludhiana,141001,"Radiant Residency, Block B, 7th Floor",5cf2c916-2992-4f56-8a33-26b2bb7013c2
+8cc94797-cf42-4a15-9876-3f799ee9a608,234 Malachite Mall,Jodhpur,342001,"Marvelous Plaza, Shop 56",b7902a6a-2583-4124-8005-1f4c908ac28f
+2d559528-6897-4f93-a890-5aba29fcc161,567 Turquoise Turnpike,Allahabad,211001,"Turquoise Towers, Suite 202",6bda3a8f-721a-49fa-97d0-ff1955aff0b3
+57f2de4b-4734-44c4-baf9-283e27040339,890 Cobalt Corner,Ranchi,834001,"Cobalt Condos, Apartment 503",7e802dcf-9b79-4037-ad83-ae6e28260dc6
+a139accb-22bc-4c8b-8b7d-0e714675516f,345 Azure Alley,Varanasi,221001,"Azure Apartments, Block F, 14th Floor",0a2394cc-687f-4551-be03-ab3ea30cd895
+c3f794b5-c001-422f-acda-803e7e1a858a,678 Celestial Street,Guwahati,781001,"Celestial Homes, Villa 7",abb05bed-5735-4dd9-8429-ff3ca7476dd9
+85bf23de-a715-4657-ab84-0264a603ae1d,901 Radiant Road,Patna,800001,"Radiant Residences, Floor 8",fb0d4ff6-cfd8-4fcc-8625-c0c9a32a4e63
+1476fd1e-d45c-4a72-bf19-1ea390ccf103,123 Luminous Lane,Shimla,171001,"Luminous Heights, Penthouse 2",22b1cb95-fddd-468e-8c82-c51a06198311
+f42aa66a-e708-4e40-a2c3-f6f8fae2f314,456 Mystic Mall,Surat,395001,"Mystic Towers, Shop 33",c8f3aa27-2322-482e-9e2b-365391379920
+d3448128-5e31-47e0-8299-98c4ab30a655,789 Serene Square,Vadodara,390001,"Serene Suites, Block D, 10th Floor",dc9289bd-dd14-46f8-9c4c-1fa67c0d43c0
+65fe9506-2049-41a9-b77d-645ac811c327,234 Twilight Terrace,Noida,201301,"Twilight Towers, Apartment 601",d63c4c13-759b-46ea-ab9a-4e857e135c5d
+bc3fd635-af57-4d3d-bdf4-3d0360d4c095,567 Blossom Boulevard,Dehradun,248001,"Blossom Residency, Block A, 6th Floor",49119802-c89e-434b-b984-db01f87d8e83
+4937c360-b9ea-4199-9f3a-b6513c2763e0,890 Tranquil Trail,Raipur,492001,"Tranquil Towers, Suite 303",ef2adf93-e3ed-4ac7-985c-7989c5b8814c
+0a729f72-b274-4c72-9884-496136eafd01,345 Harmony Heights,Gurgaon,122001,"Harmony Homes, Villa 12",9751f9b3-4322-4621-8009-812fc5ee0dce
+9ec6ee78-92c2-4575-b761-75e6b97a946d,678 Elegance Enclave,Jabalpur,482001,"Elegance Apartments, Flat 204",935dcf87-171c-4e69-8551-e5484649c231
+b294a8ae-d13a-422b-892f-48ed2e773dca,901 Majestic Manor,Kanpur,208001,"Majestic Residences, Block C, 5th Floor",e0c85714-6d8a-4e16-9cb7-60b2d9dbd467
+1fe99ef8-e0c9-42ce-9e6f-dabef08703bd,123 Enchanting Expressway,Cochin,682011,"Enchanting Estates, Tower B, 7th Floor",583bcc23-70d4-455b-af8b-0691b8f4e250
+fe13c5b6-8fad-4bdb-b6f2-a505ae613dc6,456 Sparkling Square,Raigarh,496001,"Sparkling Residences, Apartment 102",c3f04571-d473-4ea7-8ec1-49a5ac0dbef7
+d11d7325-1904-4a4a-857a-7f96c16d6612,789 Blossom Bypass,Siliguri,734001,"Blossom Bungalows, Villa 3",37a71f68-9f97-40bf-85c3-2bd7f6151be2
+fbf25746-5e53-4033-b779-f80a559a41a8,234 Serenity Street,Cuttack,753001,"Serenity Suites, Block E, 12th Floor",5d3262e6-6027-422b-8c7d-07e3a698c1ab
+56dea2a4-830f-4c18-b2fd-df66519b2f08,567 Regal Road,Rourkela,769001,"Regal Residences, Penthouse 4",5cf2c916-2992-4f56-8a33-26b2bb7013c2
