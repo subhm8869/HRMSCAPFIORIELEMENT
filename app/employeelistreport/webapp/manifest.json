@@ -50,7 +50,8 @@
         "sap.m": {},
         "sap.ui.core": {},
         "sap.ushell": {},
-        "sap.fe.templates": {}
+        "sap.fe.templates": {},
+        "sap.f": {}
       }
     },
     "contentDensities": {
@@ -83,22 +84,28 @@
       "css": []
     },
     "routing": {
-      "config": {},
+      "config": {
+        "flexibleColumnLayout": {
+          "defaultTwoColumnLayoutType": "TwoColumnsBeginExpanded",
+          "defaultThreeColumnLayoutType": "ThreeColumnsMidExpanded"
+        },
+        "routerClass": "sap.f.routing.Router"
+      },
       "routes": [
         {
           "pattern": ":?query:",
           "name": "EmployeeList",
-          "target": "EmployeeList"
+          "target": [
+            "EmployeeList"
+          ]
         },
         {
           "pattern": "Employee({key}):?query:",
           "name": "EmployeeObjectPage",
-          "target": "EmployeeObjectPage"
-        },
-        {
-          "pattern": "Employee({key})/address({key2}):?query:",
-          "name": "AddressObjectPage",
-          "target": "AddressObjectPage"
+          "target": [
+            "EmployeeList",
+            "EmployeeObjectPage"
+          ]
         }
       ],
       "targets": {
@@ -118,7 +125,9 @@
                 }
               }
             }
-          }
+          },
+          "controlAggregation": "beginColumnPages",
+          "contextPattern": ""
         },
         "EmployeeObjectPage": {
           "type": "Component",
@@ -136,24 +145,25 @@
                 }
               }
             }
-          }
-        },
-        "AddressObjectPage": {
-          "type": "Component",
-          "id": "AddressObjectPage",
-          "name": "sap.fe.templates.ObjectPage",
-          "options": {
-            "settings": {
-              "editableHeaderContent": false,
-              "contextPath": "/Employee/address"
-            }
-          }
+          },
+          "controlAggregation": "midColumnPages",
+          "contextPattern": "/Employee({key})"
         }
       }
+    },
+    "rootView": {
+      "viewName": "sap.fe.templates.RootContainer.view.Fcl",
+      "type": "XML",
+      "async": true,
+      "id": "appRootView"
     }
   },
   "sap.fiori": {
     "registrationIds": [],
     "archeType": "transactional"
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "hrms.service"
   }
 }

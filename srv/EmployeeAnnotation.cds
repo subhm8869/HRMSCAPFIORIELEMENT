@@ -1,5 +1,7 @@
 using {HRMSService} from './hrmsSystem';
 
+annotate HRMSService.Employee with @odata.draft.enabled;
+
 annotate HRMSService.Employee with {
   firstName        @title: '{i18n>firstName}';
   lastName         @title: '{i18n>lastName}';
