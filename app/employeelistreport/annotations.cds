@@ -92,7 +92,7 @@ annotate service.Employee with {
     department @Common.ValueList: {
         $Type         : 'Common.ValueListType',
         CollectionPath: 'Department',
-        parameters    : [
+        Parameters    : [
             {
                 $Type            : 'Common.ValueListParameterInOut',
                 LocalDataProperty: department_ID,
@@ -108,13 +108,14 @@ annotate service.Employee with {
             },
         ],
     }
+     @Common.ValueListWithFixedValues: true // This one Will make Value Help to Drop down
 };
 
 annotate service.Employee with {
     position @Common.ValueList: {
         $Type         : 'Common.ValueListType',
         CollectionPath: 'Position',
-        parameters    : [
+        Parameters    : [
             {
                 $Type            : 'Common.ValueListParameterInOut',
                 LocalDataProperty: position_ID,
@@ -130,13 +131,14 @@ annotate service.Employee with {
             },
         ],
     }
+     @Common.ValueListWithFixedValues: true // This one Will make Value Help to Drop down
 };
 
 annotate service.Employee with {
     resignDetails @Common.ValueList: {
         $Type         : 'Common.ValueListType',
         CollectionPath: 'Resignation',
-        parameters    : [
+        Parameters    : [
             {
                 $Type            : 'Common.ValueListParameterInOut',
                 LocalDataProperty: resignDetails_ID,

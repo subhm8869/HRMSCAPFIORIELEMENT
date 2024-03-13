@@ -13,4 +13,5 @@ annotate HRMSService.Employee with {
   AAdhar           @title: '{i18n>AAdhar}';
   PAN              @title: '{i18n>PAN}';
   emergencyContact @title: '{i18n>emergencyContact}';
+  department_ID    @title: '{i18n>department}';
 };
