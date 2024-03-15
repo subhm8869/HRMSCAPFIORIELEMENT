@@ -1,0 +1,1 @@
+using HRMSService as service from '../../srv/hrmsSystem';
