@@ -22,16 +22,18 @@
         "watch-employeelistreport": "cds watch --open employeelistreport/webapp/index.html?sap-ui-xx-viewCache=false",
         "undeploy": "cf undeploy HRMSCAPFIORIELEMENT --delete-services --delete-service-keys --delete-service-brokers",
         "build": "rimraf resources mta_archives && mbt build --mtar archive",
-        "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+        "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
+        "watch-employeeworklist": "cds watch --open employeeworklist/webapp/index.html?sap-ui-xx-viewCache=false"
     },
     "cds": {
         "requires": {
             "destinations": true,
-      "db": "hana",
-      "auth": "xsuaa"
+            "db": "hana",
+            "auth": "xsuaa"
         }
     },
     "sapux": [
-        "app/employeelistreport"
+        "app/employeelistreport",
+        "app/employeeworklist"
     ]
 }

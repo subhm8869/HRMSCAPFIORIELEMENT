@@ -39,9 +39,23 @@ modules:
       - comappemployeelistreport.zip
       name: comappemployeelistreport
       target-path: resources/
+    - artifacts:
+      - comappemployeeworklist.zip
+      name: comappemployeeworklist
+      target-path: resources/
 - name: comappemployeelistreport
   type: html5
   path: app/employeelistreport
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: comappemployeeworklist
+  type: html5
+  path: app/employeeworklist
   build-parameters:
     build-result: dist
     builder: custom
