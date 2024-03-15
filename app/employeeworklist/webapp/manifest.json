@@ -104,6 +104,22 @@
           "options": {
             "settings": {
               "contextPath": "/Employee",
+              "views": {
+                "paths": [
+                  {
+                    "key": "MaleTab",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#malePopulation"
+                  },
+                  {
+                    "key": "FemaleTab",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#femalePopulation"
+                  },
+                  {
+                    "key": "OthersTab",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#othersPopulation"
+                  }
+                ]
+              },
               "variantManagement": "Page",
               "hideFilterBar": true,
               "navigation": {
