@@ -23,6 +23,14 @@
           "annotations": [],
           "odataVersion": "4.0"
         }
+      },
+      "mainServiceV2": {
+        "uri": "/v2/HRMSSrv/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "2.0"
+        }
       }
     }
   },
@@ -77,6 +85,16 @@
           "earlyRequests": true
         }
       },
+      "mainModelV2": {
+        "dataSource": "mainServiceV2",
+        "preload": true,
+        "settings": {
+          "synchronizationMode": "None",
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      },
       "@i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "uri": "i18n/i18n.properties"
@@ -97,8 +115,26 @@
     "containerLayout": "resizable",
     "enableLiveFilter": true,
     "considerAnalyticalParameters": false,
-    "cards": {},
-    "globalFilterControlType": "MacroFilterBar"
+    "cards": {
+      "Card01": {
+        "model": "mainModel",
+        "template": "sap.ovp.cards.v4.charts.analytical",
+        "settings": {
+          "title": "{i18n>employeeCountByGender}",
+          "entitySet": "EmployeeCountByGender",
+          "autoExpandSelect": true,
+          "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#employeeDonut",
+          "identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#navigationId",
+          "showFilterInHeader": true,
+          "addODataSelect": true,
+          "annotationPath": "com.sap.vocabularies.UI.v1.Chart#employeeDonut"
+        }
+      }
+    },
+    "globalFilterControlType": "MacroFilterBar",
+    "chartSettings": {
+      "showDataLabel": true
+    }
   },
   "sap.fiori": {
     "registrationIds": [],
